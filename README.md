@@ -8,60 +8,101 @@ A collection of Arduino-based mini projects developed to strengthen my understan
 
 ---
 
-## 📌 Projects Included
+## Project Overview
+
+This repository contains the following Arduino projects:
+
+- LED Chasing
+- Ultrasonic Radar
+- OLED Robot Eye Animation
+
+Each project includes the Arduino source code, circuit diagram, and project images.
+
+---
+
+## Projects
 
 ### 1. LED Chasing
 
 A simple project demonstrating sequential LED control using Arduino digital output pins.
 
-**Hardware Used**
+#### Hardware Used
+
 - Arduino Uno
 - LEDs
 - 220Ω Resistors
 - Breadboard
 - Jumper Wires
 
+#### Features
+
+- Sequential LED blinking
+- Adjustable delay timing
+- Digital output control
+
 ---
 
 ### 2. Ultrasonic Radar
 
-An Arduino-based radar system using an HC-SR04 ultrasonic sensor mounted on an SG90 servo motor. Distance data is visualized on a computer using Processing.
+An Arduino-based radar system using an HC-SR04 ultrasonic sensor mounted on an SG90 servo motor. Distance measurements are transmitted to a computer and visualized using Processing.
 
-**Hardware Used**
+#### Hardware Used
+
 - Arduino Uno
 - HC-SR04 Ultrasonic Sensor
 - SG90 Servo Motor
 - Breadboard
 - Jumper Wires
 
-**Software Required**
+#### Software Required
+
 - Arduino IDE
 - Processing
 
-Download Processing from the official website:
+Processing can be downloaded from the official website:
+
 https://processing.org/download
+
+#### Features
+
+- 180-degree scanning
+- Real-time obstacle detection
+- Servo-controlled scanning
+- Graphical radar visualization
 
 ---
 
 ### 3. OLED Robot Eye Animation
 
-An animated robot eye display using a 128×64 OLED screen to simulate blinking and eye movement.
+A robot eye animation displayed on a 128×64 SSD1306 OLED display to simulate blinking and eye movement.
 
-**Hardware Used**
+#### Hardware Used
+
 - Arduino Uno
 - SSD1306 OLED Display (128×64)
 
-**Required Arduino Libraries**
+#### Required Libraries
+
 - Adafruit GFX Library
 - Adafruit SSD1306
 - FluxGarage Robo Eyes
 
+#### Features
+
+- Animated robot eyes
+- Eye movement
+- Blinking animation
+- OLED graphics rendering
+
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
-```
+```text
 Arduino-Mini-Projects/
+│
+├── README.md
+├── LICENSE
 │
 ├── LED_Chasing/
 │   ├── LED_Chasing.ino
@@ -78,51 +119,51 @@ Arduino-Mini-Projects/
 │   ├── Mini_Robot_Eyes.ino
 │   ├── circuit.png
 │   └── Images/
-│
-└── README.md
 ```
 
 ---
 
-## 🛠 Software Used
+## Software Used
 
 - Arduino IDE
-- Processing (for Ultrasonic Radar visualization)
+- Processing
 
 ---
 
-## 📸 Repository Contents
+## Skills Demonstrated
 
-Each project folder contains:
-- Arduino source code (`.ino`)
-- Circuit diagram
-- Images of the completed project
-
----
-
-## 🎯 Learning Outcomes
-
-Through these projects, I gained practical experience with:
-- Arduino programming
-- Digital input/output
-- Servo motor control
-- Ultrasonic distance sensing
-- OLED display interfacing
-- Embedded systems prototyping
-- Electronic circuit assembly and debugging
+- Arduino Programming
+- Embedded Systems
+- Digital Electronics
+- Sensor Interfacing
+- Servo Motor Control
+- OLED Display Interfacing
+- Circuit Assembly
+- Hardware Debugging
 
 ---
 
-## 👨‍💻 Author
+## Learning Outcomes
+
+Through these projects, I gained practical experience in:
+
+- Writing Arduino programs
+- Interfacing sensors and displays
+- Controlling servo motors
+- Designing and assembling electronic circuits
+- Debugging embedded systems
+- Understanding hardware-software integration
+
+---
+
+## Author
 
 **Vishal Roy**
-
-Electronics and Communication Engineering Student
 
 GitHub: https://github.com/VishalRoy08
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
